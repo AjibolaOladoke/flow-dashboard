@@ -6,19 +6,19 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![flow-dashboard](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![flow-dashboard](images/preview.png)](https://github.com/Swift-Tech-Co/flow-dashboard)
 
 ## Purpose
 
 Flow is a habit tracker and personal data analytics app that lets you keep focus on what matters. Flow owns none of your data. That's yours.
 
-If you just want look around or get started with Flow, you can create a free account at https://www.swifttechco.com
+If you just want look around or get started with Flow, you can create a free account at https://github.com/Swift-Tech-Co/flow-dashboard
 
 To spin up your own instance, or start contributing to this repo, see below.
 
 ## API Documentation
 
-The docs are still a work in progress. Check out the current docs at https://www.swifttechco.com
+The docs are still a work in progress. Check out the current docs at https://github.com/Swift-Tech-Co/flow-dashboard
 
 ## Setup
 
@@ -28,11 +28,11 @@ Note that Flow uses the Python 2.7 runtime in GCP, which is now deprecated!
 ### Obtain Google App Engine SDK
 
 Download the Cloud SDK from Google.
-`https://www.swifttechco.com
+`https://github.com/Swift-Tech-Co/flow-dashboard
 
 ### Setup a new Google Cloud project
 
-Visit the Google developer's console: https://www.swifttechco.com
+Visit the Google developer's console: https://github.com/Swift-Tech-Co/flow-dashboard
 Create a new project and choose a unique project ID. You will not need a billing account if usage remains within Google's free tier, which should support low-mid volume use cases.
 
 ### Set up a gcloud config
@@ -71,7 +71,6 @@ Create the following files by copying the templates (keep the original template 
 - **client_secrets.js** ::
 	`./src/js/constants/client_secrets.templates.js => ./src/js/constants/clients_secrets.js`
 
-
 ### Run the dev server locally
 
 To avoid conflicts sometimes seen with gcloud and google.cloud python libs it is often helpful to run the dev server in a virtualenv. Make sure dev_appserver.py is in your path.
@@ -105,7 +104,7 @@ conda config --env --set subdir osx-64
 
 If you get a permission denied error on a logs directory during deploy, you may need to run the above command wish sudo.
 
-Visit `https://www.swifttechco.com].appspot.com` to see the app live.
+Visit `https://github.com/Swift-Tech-Co/flow-dashboard].appspot.com` to see the app live.
 
 ## Features
 
@@ -160,18 +159,18 @@ All integrations work out of the box on flowdash.co, but if you're spinning up y
 
 #### Pocket
 
-Create an app at https://www.swifttechco.com and update settings.secrets.POCKET_CONSUMER_KEY
+Create an app at https://github.com/Swift-Tech-Co/flow-dashboard and update settings.secrets.POCKET_CONSUMER_KEY
 
 #### Evernote
 
-1. Request an API Key at https://www.swifttechco.com
-2. Request a webhook at https://www.swifttechco.com pointing to [Your Domain]/api/integrations/evernote/webhook
+1. Request an API Key at https://github.com/Swift-Tech-Co/flow-dashboard
+2. Request a webhook at https://github.com/Swift-Tech-Co/flow-dashboard pointing to [Your Domain]/api/integrations/evernote/webhook
 
 #### Google Home
 
 We've used API.AI to create an agent that integrates with Google Actions / Assistant / Home. To connect Assistant with a new instance of Flow:
 
-1. Visit https://www.swifttechco.com
+1. Visit https://github.com/Swift-Tech-Co/flow-dashboard
 2. Update the agent.json configuration file in static/flow-agent
 3. Fill in config params in [Brackets] with your configuration / webhook URLs, etc
 4. Import the agent.json to API.AI
@@ -180,9 +179,9 @@ We've used API.AI to create an agent that integrates with Google Actions / Assis
 
 #### Facebook Messenger
 
-The messenger bot lives at https://www.swifttechco.com
+The messenger bot lives at https://github.com/Swift-Tech-Co/flow-dashboard
 
-To create a new messenger bot for your own instance of Flow, see the Facebook quickstart: https://www.swifttechco.com
+To create a new messenger bot for your own instance of Flow, see the Facebook quickstart: https://github.com/Swift-Tech-Co/flow-dashboard
 
 #### BigQuery
 
@@ -219,13 +218,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/flow-dashboard
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [onejgordon/flow-dashboard](https://github.com/onejgordon/flow-dashboard) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
